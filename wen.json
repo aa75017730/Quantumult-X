@@ -65,3 +65,4 @@
     {"config":"0 0-23/2 * * * https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_EsportsManager.js, tag=电竞经理, img-url=https://raw.githubusercontent.com/he1pu/JDHelp_demo/main/jd_EsportsManager.png, enabled=true", "addons":"https://raw.githubusercontent.com/he1pu/JDHelp/main/QuantumultX/cookies.conf"}
   ]
 }
+
