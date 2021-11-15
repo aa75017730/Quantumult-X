@@ -126,19 +126,7 @@ static=🕹 FINAL,  ♻️香港全自动, ♻️自动低延迟, 🚀手动选�
 
 # > 远程服务器（远程图标）.
 [server_remote]
-https://zhizhi.bike/api/v1/client/subscribe?token=a4ad794amr7acdd1798e1b87cd1f3244#emoji=1&#info=1&#in=, tag=小小吱, update-interval=172800, opt-parser=true, enabled=true
-https://niaocloud-rss.xyz/link/nMEgUt74jbwI5LDe?sub=3#out=新加坡+10+02, tag=小鸟, update-interval=172800, opt-parser=true, enabled=true
-https://v2r.proxypools.xyz/api/v1/client/subscribe?token=cf1efcb4c25358dc53e4c2c648e6dbb3#in=霸+乾+红+开+超+白+东+赞+指+太+轩+昊天, tag=神器, update-interval=604800, opt-parser=true, enabled=true
-https://v2ky.com/api/v1/client/subscribe?token=d623293dcc617ecdfca1e22f1aa5831c#info=1&#emoji=2&#rename=云网@%20&#out=日本, tag=白_云网, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Ywhl.png, update-interval=2592000, opt-parser=true, enabled=true
-https://ek12.me/link/bA9cljffHg7xvesh?sub=3#out=买套餐&#emoji=2&info=1&#rename=企鹅专线@%20+稳定首选@%20+商业线路@%20+1G商线@%20+CN2直连@%20+上海独享@%20+CN2商線直連@%20+聯通線路@%20+PCCW@%20+HKT@%20+|@%20, tag=嫖_翻墙小组年付, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Np.png, update-interval=31536000, opt-parser=true, enabled=true
-http://freeperson.xyz/link/yFi37fRWOZWObleX?list=quantumultx#out=请不要+赞助&#emoji=2&info=1&#rename=HongKong@香港+-Anycast-AWS-2000Mbps@%20+AWSAGA-5000Mbps@%20+Japan@日本+Anycast-1000Mbps@%20+Singapore@新加坡+-5X@%20+-@%20, tag=自由人士, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/CCCat.png, update-interval=31536000, opt-parser=true, enabled=true
-https://pjj.life/api/app/user/sub?type=quantumultx&userid=417350660065853440&key=f4f71f85-ce2e-47f4-b733-bf97db19afab&#info=1&#emoji=2, tag=aa75017730@gmail.com, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Wave.png, update-interval=31536000, opt-parser=false, enabled=false
-https://raw.githubusercontent.com/O7Y0/Attached/main/UnblockNeteaseMusic/UnblockNeteaseMusic.txt, tag=网易云音乐, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Netease.png, update-interval=31536000, opt-parser=true, enabled=true
-https://git.io/JfNq3, tag=网易云音乐, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Netease.png, update-interval=31536000, opt-parser=true, enabled=true
-https://api.dler.io/sub?target=quanx&url=https%3A%2F%2Fgithub.com%2Fssrsub%2Fssr%2Fraw%2Fmaster%2Fss-sub&emoji=false&list=true&udp=true&tfo=false&scv=false&fdn=true&sort=true#rename=SSRSUB-@%20+-付费推荐:@%20+T.CN/EGJIYRL@%20+SUO.YT/SSRSUB@👆&#emoji=2, tag=白嫖SS, update-interval=31536000, opt-parser=true, enabled=false
-https://github.com/ssrsub/ssr/raw/master/ssrsub, tag=白嫖SSR, update-interval=31536000, opt-parser=false, enabled=false
-https://raw.githubusercontent.com/ssrsub/ssr/master/ssrsub, tag=偶尔使用, update-interval=31536000, opt-parser=false, enabled=false
-https://raw.githubusercontent.com/ssrsub/ssr/master/ss-sub, tag=应急使用, update-interval=31536000, opt-parser=false, enabled=false
+
 
 
 
@@ -295,20 +283,6 @@ https://raw.githubusercontent.com/NobyDa/Profiles/master/Quantumult/X/Filter/Med
 
 # > 本地订阅
 [server_local]
-shadowsocks=42.157.196.104:10812, method=aes-256-cfb, password=vCmp8ALih6, ssr-protocol=auth_aes128_md5, ssr-protocol-param=234493:9Y6AiB3USD, obfs=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=台湾 01
-
-shadowsocks=dg-hk-node01.linkthink.app:10750, method=rc4-md5, password=abK09D1FnV, ssr-protocol=auth_aes128_md5, ssr-protocol-param=234493:9Y6AiB3USD, obfs=http_post, fast-open=false, udp-relay=false, tag=香港 01
-
-shadowsocks=dg-hk-node02.linkthink.app:12184, method=aes-256-cfb, password=e5opjuLDEQ, ssr-protocol=auth_aes128_md5, ssr-protocol-param=234493:9Y6AiB3USD, obfs=http_post, fast-open=false, udp-relay=false, tag=香港 02
-
-shadowsocks=42.157.196.104:20287, method=aes-256-cfb, password=CWSZscLkjf, ssr-protocol=auth_aes128_md5, ssr-protocol-param=234493:9Y6AiB3USD, obfs=http_post, fast-open=false, udp-relay=false, tag=香港04-测试
-
-shadowsocks=145.239.1.137:2376, method=aes-256-gcm, password=faBAoD54k87UJG7, fast-open=false, udp-relay=false, tag=法国-1.57MB/s
-
-shadowsocks=198.57.27.218:2376, method=aes-256-gcm, password=faBAoD54k87UJG7, fast-open=false, udp-relay=false, tag=加拿大-3.10MB/s
-
-shadowsocks=198.57.27.218:2375, method=aes-256-gcm, password=faBAoD54k87UJG7, fast-open=false, udp-relay=false, tag=🇨🇦 加拿大(节点池)26
-
 http=106.52.127.72:19951,fast-open=false,udp-relay=false,tag=🎧 解锁网易云音乐
 [rewrite_remote]
 # > EMBY解锁
