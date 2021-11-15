@@ -295,11 +295,6 @@ https://raw.githubusercontent.com/NobyDa/Profiles/master/Quantumult/X/Filter/Med
 
 # > 本地订阅
 [server_local]
-
-
-
-
-
 shadowsocks=42.157.196.104:10812, method=aes-256-cfb, password=vCmp8ALih6, ssr-protocol=auth_aes128_md5, ssr-protocol-param=234493:9Y6AiB3USD, obfs=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=台湾 01
 
 shadowsocks=dg-hk-node01.linkthink.app:10750, method=rc4-md5, password=abK09D1FnV, ssr-protocol=auth_aes128_md5, ssr-protocol-param=234493:9Y6AiB3USD, obfs=http_post, fast-open=false, udp-relay=false, tag=香港 01
@@ -308,63 +303,11 @@ shadowsocks=dg-hk-node02.linkthink.app:12184, method=aes-256-cfb, password=e5opj
 
 shadowsocks=42.157.196.104:20287, method=aes-256-cfb, password=CWSZscLkjf, ssr-protocol=auth_aes128_md5, ssr-protocol-param=234493:9Y6AiB3USD, obfs=http_post, fast-open=false, udp-relay=false, tag=香港04-测试
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 shadowsocks=145.239.1.137:2376, method=aes-256-gcm, password=faBAoD54k87UJG7, fast-open=false, udp-relay=false, tag=法国-1.57MB/s
-
-
-
-
-
-
-
-
-
-
-
 
 shadowsocks=198.57.27.218:2376, method=aes-256-gcm, password=faBAoD54k87UJG7, fast-open=false, udp-relay=false, tag=加拿大-3.10MB/s
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 shadowsocks=198.57.27.218:2375, method=aes-256-gcm, password=faBAoD54k87UJG7, fast-open=false, udp-relay=false, tag=🇨🇦 加拿大(节点池)26
-
 
 http=106.52.127.72:19951,fast-open=false,udp-relay=false,tag=🎧 解锁网易云音乐
 [rewrite_remote]
@@ -548,8 +491,6 @@ event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/
 0 1,21 * * * jd_star_shop.js, tag=明星小店, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
 # > 618动物联萌
 13 0-23/2 * * * jd_zoo.js, tag=618动物联萌, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
-
-
 # > 金榜创造营
 #活动入口：https://h5.m.jd.com/babelDiy/Zeus/2H5Ng86mUJLXToEo57qWkJkjFPxw/index.html活动时间：2021-05-21至2021-12-31
 10 1,22 * * * jd_gold_creator.js, tag=金榜创造营, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
@@ -564,13 +505,9 @@ event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/
 15 9 * 5,6 * https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_jxhb.js, tag=京喜阶梯红包, enabled=false
 # > 618动物联萌
 13 0-23/2 * * * jd_zoo.js, tag=618动物联萌, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
-# > 618大势新品赏
-# > Redmi->合成小金刚
-# > 人头马x博朗
 0 8 * * * https://raw.githubusercontent.com/xl2101200/-/main/ttcj.js, tag=天天抽奖365, enabled=true
 0 10 * * * https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/exchange.js, tag=每日汇率, img-url=https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Task/exchange.png, enabled=true
 0 9 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/idaily/idaily.js, tag=iDaily·每日环球视野, img-url=https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Task/iDaily.png, enabled=true
-# > 食材大冲关
 # > 每日抽奖
 13 1,22,23 1-30 5 * jd_daily_lottery.js, tag=每日抽奖, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
 2 0-23/4 * * * jd_cash.js, tag=签到领现金, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
@@ -611,11 +548,8 @@ event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/
 0 0,1-23/3 * * * jd_mohe.js, tag=5G超级盲盒, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
 # > 泡泡消消消
 * */1 * * * * xxl.js, tag=泡泡消消乐, enabled=false
-#萌喵大作战无限刷红包券
-# > 京东手机狂欢城
 # > 京东直播
 10-20/5 12 * * * jd_live.js, tag=京东直播, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
-# > 城城领现金
 # > 领现金兑换红包
 0,1,2 0 * * * https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Jd/jd_cash_exchange.js, tag=领现金兑换红包
 # > 领现金自动获得酬劳
@@ -630,16 +564,12 @@ event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/
 30 10,15 * * * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_jxd.js, tag=京小兑, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_jxd.png, enabled=false
 # > 赚金豆
 23 6 * * * jd_syj.js, tag=赚京豆, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_syj.png, enabled=true
-# > 监控crazyJoy分红
-# > crazyJoy任务
 # > 京喜财富岛提现
 0 0 * * * https://qxzy.top/rules/QuantumultX/js/jx_cfdtx.js, tag=京喜财富岛提现, img-url=https://raw.githubusercontent.com/ChuheGit/1/main/QuantumultX/Gallery/API-Icon/jx_sign.png, enabled=false
 # > 京喜财富岛提现1
 0 0 * * * jx_cfdtx.js, tag=京喜财富岛提现, img-url=https://raw.githubusercontent.com/ChuheGit/1/main/QuantumultX/Gallery/API-Icon/jx_sign.png, enabled=true
-# > 酷乐潮玩
 # > 京东保价
 0 2 * * * jd_price.js, tag=京东保价, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true
-# > 京东天天加速
 # > 京东极速版红包
 0 0 * * * jd_speed_redpocke.js, tag=京东极速版红包, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true
 # > 京东极速版
@@ -688,7 +618,6 @@ event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/
 59 59 23,7,11,15 * * * jd_joy_reward2.js, tag=宠汪汪积分兑换奖品500, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdcww.png, enabled=true
 # > 京东宠汪汪喂食
 12 */1 * * * jd_joy_feedPets.js, tag=京东宠汪汪喂食, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdcww.png, enabled=true
-# > 签到领现金
 # > 口袋书店
 1 8,12,18 * * * jd_bookshop.js, tag=口袋书店, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
 # > 取关京东店铺商品
@@ -701,22 +630,16 @@ event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/
 20 8 * * * jd_sgmh.js, tag=闪购盲盒, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
 # > 女装盲盒
 0 7 1-31 4 * jd_nzmh.js, tag=女装盲盒, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
-# > 小鸽有礼 2
 # > 燃旅视频
 0/10 10-20 * * * https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/ranlv.js, tag=燃旅视频, img-url=https://raw.githubusercontent.com/sngxpro/QuanX/master/icons/ranlv.jpg, enabled=true
-# > 京东国际盲盒
 # > 苏宁易购
 1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.js, tag=苏宁易购, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/suning.png, enabled=true
-# > 京年团圆pick
-# > 京东超级盒子
 # > 京东赚京东开团
 34 * * * * https://raw.githubusercontent.com/whyour/hundun/master/quanx/jd_zjd_tuan.js, tag=京东赚京东开团, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_syj.png, enabled=true
 # > 超级直播间任务赢京豆
 40 21 25 1 * jd_super.js, tag=超级直播间任务赢京豆, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true
 # > 年货直播红包雨
 0 0,9,11,13,15,17,19,20,21,23 3,5,20-30/1 1,2 * jd_live_redrain_nian.js, tag=年货直播红包雨, img-url=https://raw.githubusercontent.com/shylocks/Loon/main/icons/jd_live_redrain_nian.jpg, enabled=false
-# > 多看点视频
-# > 步步宝 
 # > 疫情动态 （by Mazetsz & Ark）
 8 9 * * * https://raw.githubusercontent.com/Mazetsz/QX/master/nCov_new.js, tag=疫情动态, img-url=https://raw.githubusercontent.com/Orz-3/task/master/COVID-19.png, enabled=true
 # > 京东家庭号
@@ -744,7 +667,6 @@ event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/
 1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/qimao/qmnovel.js, tag=七猫小说, img-url=https://raw.githubusercontent.com/Orz-3/task/master/qimao.png, enabled=true
 # > 腾讯视频会员签到 手机浏览器访问并登录: https://film.qq.com/
 33 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js, tag=腾讯视频, img-url=https://raw.githubusercontent.com/Orz-3/task/master/videoqq.png, enabled=true
-# > 天天挖矿小程序
 # > 百度签到 先登录,浏览器访问一下: https://tieba.baidu.com 或者 https://tieba.baidu.com/index/
 41 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js, tag=百度签到, img-url=https://raw.githubusercontent.com/Orz-3/task/master/baidu.png, enabled=true
 # > 有道云笔记
