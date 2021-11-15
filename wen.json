@@ -1,5 +1,5 @@
 {
- "name": "task gallery",
+ "name": "task wen",
  "description": "",
  "task": [
     {"config":"2 9 * * * https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_bean_change.js, tag=京东资产变动通知, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true", "addons":"https://raw.githubusercontent.com/he1pu/JDHelp/main/QuantumultX/cookies.conf"},
