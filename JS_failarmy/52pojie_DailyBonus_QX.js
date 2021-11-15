@@ -52,3 +52,4 @@ $task.fetch(bonus).then(response => {
 }, reason => {
     $notify("52pojie Daily bonus. Interface error‼️‼️‼️", "", reason.error)
 });
+
