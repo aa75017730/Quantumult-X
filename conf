@@ -49,8 +49,6 @@ server=8.8.8.8
 ;address=/example5.com/192.168.16.18
 ;address=/example6.com/[2001:8d3:8d3:8d3:8d3:8d3:8d3:8d3]
 
-
-
 [http_backend] 
 #https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js, tag=BoxJs, path=^/, img-url=https://raw.githubusercontent.com/Orz-3/task/master/box.png, enabled=false
 
