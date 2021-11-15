@@ -45,3 +45,4 @@ if ($request.url.indexOf('/user/check_sign') != -1) {
     body = body.replace("</body>", clearJS + '\n</body>'); // 注入清空任务相关JS
 }
 $done({body});
+
