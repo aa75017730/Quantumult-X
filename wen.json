@@ -54,7 +54,8 @@
     {"config":"0 1,21 * * * https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_star_shop.js, tag=明星小店, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true", "addons":"https://raw.githubusercontent.com/he1pu/JDHelp/main/QuantumultX/cookies.conf"},
     {"config":"11 * * * * https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_superMarket.js, tag=东东超市, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxc.png, enabled=true", "addons":"https://raw.githubusercontent.com/he1pu/JDHelp/main/QuantumultX/cookies.conf"},
     {"config":"55 23 * * * https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_unsubscribe.js, tag=取关京东店铺商品, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true", "addons":"https://raw.githubusercontent.com/he1pu/JDHelp/main/QuantumultX/cookies.conf"},
-    {"config":"0 0-23/2 * * * https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_EsportsManager.js, tag=电竞经理, img-url=https://raw.githubusercontent.com/he1pu/JDHelp_demo/main/jd_EsportsManager.png, enabled=true", "addons":"https://raw.githubusercontent.com/he1pu/JDHelp/main/QuantumultX/cookies.conf"}
-  ]
+    {"config":"0 0 6-23 * * * https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_EsportsManager.js, tag=电竞经理, img-url=https://raw.githubusercontent.com/he1pu/JDHelp_demo/main/jd_EsportsManager.png, enabled=true", "addons":"https://raw.githubusercontent.com/he1pu/JDHelp/main/QuantumultX/cookies.conf"},
+    {"config":"0 0 6-23 * * * https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/dsj.js, tag=电视家, img-url=https://cdn.jsdelivr.net/gh/ziye888/JavaScript@master/Task/dsj.png, enabled=true", "addons":"https://raw.githubusercontent.com/he1pu/JDHelp/main/QuantumultX/cookies.conf"}
+ ]
 }
 
