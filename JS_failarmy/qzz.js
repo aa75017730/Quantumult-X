@@ -1,5 +1,10 @@
 /*
-Unlocks by Cuttlefish 公众号：墨鱼手记
+支持2.1.1版本
+# QX
+[rewrite_local]
+^https://cm.szsszykj.com/interface/GetVip.php url script-response-body https://raw.githubusercontent.com/aa75017730/Quantumult-X/main/JS_failarmy/qzz.js
+[mitm]
+hostname= cm.szsszykj.com
 */
 let body= $response.body; 
 var obj = JSON.parse(body); 
