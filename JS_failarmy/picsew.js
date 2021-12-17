@@ -7,7 +7,7 @@
 #圈X重写
 [rewrite local]
 
-https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://gjds666.top/pojie/picsew2.js
+https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/aa75017730/Quantumult-X/main/JS_failarmy/picsew.js
 
 [mitm]
 
