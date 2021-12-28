@@ -1,4 +1,5 @@
 /*
+支持最新版5.1.1，后续版本待验证(脚本更新日期:2021-12-28)
 Loon：
 http-response ^https:\/\/api\.revenuecat\.com\/v1\/receipts requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/aa75017730/Quantumult-X/main/JS_failarmy/1Blocker.js
 QX：
