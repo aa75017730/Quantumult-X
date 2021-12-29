@@ -1,15 +1,35 @@
 /*
-PicsArt app unlocks pro
+QX：
+^https:\/\/api\.meiease\.cn\/shop\/subscription\/validate* url script-response-body https://raw.githubusercontent.com/byour13/Script/main/PicsArt.js
 
-Surge4.0:
-http-response https:\/\/api\.(picsart|meiease)\.c(n|om)\/users\/show\/me\.json requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/PicsArt.js
-
-QX1.0.0
-^https:\/\/api\.(picsart|meiease)\.c(n|om)\/users\/show\/me\.json url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/PicsArt.js
-
-Surge & QX Mitm = api.picsart.c*, api.meiease.c*
+Loon&QX = api.meiease.cn
 */
 
-let obj = JSON.parse($response.body);
-obj.subscription.granted = "true";
-$done({body: JSON.stringify(obj)});
+var obj = JSON.parse($response.body);
+obj = {
+  "status" : "success",
+  "response" : {
+    "is_eligible_for_grant" : true,
+    "expire_date" : 1999900182000,
+    "limitation" : {
+      "max_count" : 10,
+      "limits_exceeded" : false
+    },
+    "order_id" : "180001035733989",
+    "purchase_date" : 1622095382000,
+    "app" : "com.picsart.studio",
+    "original_order_id" : "180001035733989",
+    "winback_screen_id" : 1,
+    "is_eligible_for_introductory" : false,
+    "subscription_id" : "com.picsart.studio.subscription_plus_yearly",
+    "is_trial" : true,
+    "status" : "SUBSCRIPTION_PURCHASED",
+    "plan_meta" : {
+
+    }
+  },
+  "reason" : "ok"
+}
+;
+
+$done({body: JSON.stringify(obj)})
