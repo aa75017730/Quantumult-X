@@ -31,6 +31,6 @@ var objc = JSON.parse($response.body);
 objc.data["vipstartTime"] = "2020-09-28";
 objc.data["vipendtime"] = "2999-09-28";
 objc.data["trueName"] = "静心คิดถึง";
-objc.data["headImg"] = "https://thirdqq.qlogo.cn/g?b=oidb&k=iaODNibZcQQTN0QPGShfkKIw&s=640";
+objc.data["headImg"] = "https://raw.githubusercontent.com/aa75017730/Quantumult-X/main/logo/zijitouxiang.png";
 
 $done({body: JSON.stringify(objc)});
