@@ -23,4 +23,3 @@ https://dj.palmestore.com/.+video/report? url script-request-header https://raw.
 # > Surge重写
 ;基础CK=type=http-request,pattern=https://dj.palmestore.com/.+/info/getUserInfo?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/bluesmallpig/scripts/main/djxs.js,script-update-interval=0
 ;视频CK=type=http-request,pattern=https://dj.palmestore.com/.+video/report?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/bluesmallpig/scripts/main/djxs.js,script-update-interval=0
-
