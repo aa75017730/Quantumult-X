@@ -71,5 +71,6 @@
         "1 20 1-18 6 * https://raw.githubusercontent.com/longzhuzhu/nianyu/main/qx/long_hby_lottery.js, tag=主会场红包雨 , img-url=https://raw.githubusercontent.com/ChuheGit/1/main/QuantumultX/Gallery/API-Icon/long_hby_lottery.png"
         "*/15 7-22 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/fdxs.js, tag=疯读小说刷任务"
         "*/3 6-17 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/fdxs_times.js, tag=疯读小说刷时长"
+        "13 7-18 * * * https://raw.githubusercontent.com/bluesmallpig/scripts/main/fdxs.js, tag=得间小说刷任务"
     ]
 }
