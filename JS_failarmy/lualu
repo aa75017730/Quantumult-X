@@ -1,0 +1,26 @@
+/*
+集合一下薅羊毛的JS脚本
+以下自互联网收集，如触犯作者利益或触犯法律法规请联系我进行删除，不能使用时与本人无关。
+*/
+
+[mitm]
+hostname = *.fengdunovel.com,  *.palmestore.com, 
+
+
+# > 1、疯读小说，商店自行搜索下载
+# > 任务脚本地址：https://raw.githubusercontent.com/bluesmallpig/scripts/main/fdxs.js
+# > 刷时长脚本地址：https://raw.githubusercontent.com/bluesmallpig/scripts/main/fdxs_times.js
+
+# > QX重写
+https://.+/app/cfg  url script-request-header https://raw.githubusercontent.com/bluesmallpig/scripts/main/fdxs.js
+# > Surge重写
+;Token=type=http-request,pattern=https://.+/app/cfg,max-size=0,script-path=https://raw.githubusercontent.com/bluesmallpig/scripts/main/fdxs.js,script-update-interval=0
+
+# > 2、得间小说，商店自行搜索下载
+# > QX重写
+https://dj.palmestore.com/.+/info/getUserInfo? url script-request-body https://raw.githubusercontent.com/bluesmallpig/scripts/main/djxs.js
+https://dj.palmestore.com/.+video/report? url script-request-header https://raw.githubusercontent.com/bluesmallpig/scripts/main/djxs.js
+# > Surge重写
+;基础CK=type=http-request,pattern=https://dj.palmestore.com/.+/info/getUserInfo?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/bluesmallpig/scripts/main/djxs.js,script-update-interval=0
+;视频CK=type=http-request,pattern=https://dj.palmestore.com/.+video/report?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/bluesmallpig/scripts/main/djxs.js,script-update-interval=0
+
