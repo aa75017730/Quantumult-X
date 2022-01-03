@@ -4,7 +4,7 @@
 */
 
 [mitm]
-hostname = *.fengdunovel.com,  *.palmestore.com, 
+hostname = *.fengdunovel.com, *.palmestore.com, 
 
 
 # > 1、疯读小说，商店自行搜索下载
