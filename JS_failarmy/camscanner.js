@@ -1,11 +1,11 @@
-*/
+/*
 surge
 扫描全能 pro = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/aa75017730/Quantumult-X/main/JS_failarmy/camscanner.js,type=http-response,pattern=https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\?,script-update-interval=0
 
 QX
 https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body https://raw.githubusercontent.com/aa75017730/Quantumult-X/main/JS_failarmy/camscanner.js
 hostname = api-cs.intsig.net
-/*
+*/
 
 let body = JSON.parse($response.body)
     body.data.psnl_vip_property = {"renew_method": "appstore",
