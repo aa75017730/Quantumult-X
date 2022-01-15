@@ -2,6 +2,7 @@
  "name": "task wen",
  "description": "https://raw.githubusercontent.com/aa75017730/Quantumult-X/main/wen.json",
  "task": [
+    {"config":"0 0 6 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/appstore/AppMonitor.js, tag=App价格监控 , img-url=https://raw.githubusercontent.com/ChuheGit/1/main/QuantumultX/Gallery/API-Icon/JD_DailyBonus.png, enabled=true", "addons":"https://raw.githubusercontent.com/he1pu/JDHelp/main/QuantumultX/cookies.conf"},
     {"config":"2 9 * * * https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_bean_change.js, tag=京东资产变动通知, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true", "addons":"https://raw.githubusercontent.com/he1pu/JDHelp/main/QuantumultX/cookies.conf"},
     {"config":"10 7 * * * https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_bean_home.js, tag=领京豆额外奖励, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_bean_home.png, enabled=true", "addons":"https://raw.githubusercontent.com/he1pu/JDHelp/main/QuantumultX/cookies.conf"},
     {"config":"20 * * * * https://raw.githubusercontent.com/he1pu/JDHelp/main/jd_big_winner.js, tag=省钱大赢家之翻翻乐, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true", "addons":"https://raw.githubusercontent.com/he1pu/JDHelp/main/QuantumultX/cookies.conf"},
