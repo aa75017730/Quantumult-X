@@ -6,6 +6,9 @@
 支持版本：商店最新 6.3.1(彩云天气) 6.1.18(彩云天气Pro)
 更新时间：2022.1.30
 问题反馈：https://t.me/yqc_777
+hostname = biz.caiyunapp.com
+# > 彩云天气/彩云天气Pro(2022.01.30)
+^https?:\/\/biz\.caiyunapp\.com\/v\d\/user url script-response-body https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/CaiYunWeather.js
 使用声明：⚠️⚠️⚠️此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
 */
 
