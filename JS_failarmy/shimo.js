@@ -1,12 +1,12 @@
 /*
-石墨文档解锁VIP未测试，自行测试
-https://api.shimo.im/users/
+石墨文档解锁VIP
+https://shimo.im/lizard-api/users/me
+mitm= shimo.im
 */
 
 let obj = JSON.parse($response.body);
-
-obj.membership = {
-    "accountTypeExpiredAt": "2099-04-30T16:00:00.000Z",
+    obj.membership = {
+    "accountTypeExpiredAt": "2099-12-30T16:00:00.000Z",
     "accountTypeCreatedAt": "2020-03-25T13:09:31.000Z",
     "accountType": "personal_premium",
     "isEnterprisePremium": true,
@@ -14,5 +14,19 @@ obj.membership = {
     "isNewDing": false,
     "isOfficial": true
   }
-
+  obj.accountMetadata= {
+    "isDingtalk" : false,
+    "isFreeEnterprise" : false,
+    "isTrial" : false,
+    "expiredAt" : {
+      "seconds" : 4102415999,
+      "nanos" : 55173442
+    },
+    "isWework" : false,
+    "isExpired" : false,
+    "isEnterprise" : false,
+    "isPersonalPremium" : true,
+    "isEnterprisePremium" : true,
+    "isEnterpriseLight" : false
+  }
 $done({body: JSON.stringify(obj)});
