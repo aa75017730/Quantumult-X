@@ -6,15 +6,15 @@ Quantumult-X
 
 使用懒人配置前请先做好自己的配置备份，导入配置后可能会覆盖之前的所有配置。
 
-### 1、space配置:https://raw.githubusercontent.com/WSL33099/QuantumultX/main/Conf/Space.conf
+#### 1、space配置:https://raw.githubusercontent.com/WSL33099/QuantumultX/main/Conf/Space.conf
 
-### 2、大飞配置:https://raw.githubusercontent.com/w37fhy/QuantumultX/master/w37fhy_diy.conf
+#### 2、大飞配置:https://raw.githubusercontent.com/w37fhy/QuantumultX/master/w37fhy_diy.conf
 
-### 3、懒人配置:https://raw.githubusercontent.com/Sonmbs/quantumult_X/main/coconut.conf 
+#### 3、懒人配置:https://raw.githubusercontent.com/Sonmbs/quantumult_X/main/coconut.conf 
 
-### 4、Shawn配置:https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/QuantumultX_Profiles.conf 
+#### 4、Shawn配置:https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/QuantumultX_Profiles.conf 
 
-### 5、Orz-3配置:https://raw.githubusercontent.com/Orz-3/QuantumultX/master/Orz-3.conf 
+#### 5、Orz-3配置:https://raw.githubusercontent.com/Orz-3/QuantumultX/master/Orz-3.conf 
 
 #### 6、烧烤哥配置:https://raw.githubusercontent.com/Tartarus2014/QuantumultX-Script/main/QuanX.conf
 
@@ -22,7 +22,7 @@ Quantumult-X
 
 #### 8、大陆用户配置下载:https://raw.githubusercontent.com/zwf234/rules/master/QuantumultX/qixin.conf
 
-### 9、海外用户配置下载（海外华人）:https://raw.githubusercontent.com/zwf234/rules/master/QuantumultX/overseas.conf
+#### 9、海外用户配置下载（海外华人）:https://raw.githubusercontent.com/zwf234/rules/master/QuantumultX/overseas.conf
 
 #### 10、GeQ1an规则:https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/QuantumultX.conf 
 
