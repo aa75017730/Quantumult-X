@@ -16,26 +16,26 @@ Quantumult-X
 
 ### 5、Orz-3配置:https://raw.githubusercontent.com/Orz-3/QuantumultX/master/Orz-3.conf 
 
-### 6、烧烤哥配置:https://raw.githubusercontent.com/Tartarus2014/QuantumultX-Script/main/QuanX.conf
+#### 6、烧烤哥配置:https://raw.githubusercontent.com/Tartarus2014/QuantumultX-Script/main/QuanX.conf
 
-### 7、奇心配置 奇心3.0:https://qxnav.com/rules/QuantumultX/qixin.conf
+#### 7、奇心配置 奇心3.0:https://qxnav.com/rules/QuantumultX/qixin.conf
 
-### 8、大陆用户配置下载:https://raw.githubusercontent.com/zwf234/rules/master/QuantumultX/qixin.conf
+#### 8、大陆用户配置下载:https://raw.githubusercontent.com/zwf234/rules/master/QuantumultX/qixin.conf
 
 ### 9、海外用户配置下载（海外华人）:https://raw.githubusercontent.com/zwf234/rules/master/QuantumultX/overseas.conf
 
-### 10、GeQ1an规则:https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/QuantumultX.conf 
+#### 10、GeQ1an规则:https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/QuantumultX.conf 
 
-### 11、耳东橙配置:https://raw.githubusercontent.com/erdongchanyo/Rules/main/Quantumult%20X/LazyConf/QuantumultX_EDC-Lazy.conf
+#### 11、耳东橙配置:https://raw.githubusercontent.com/erdongchanyo/Rules/main/Quantumult%20X/LazyConf/QuantumultX_EDC-Lazy.conf
 
-### 12、DivineEngine（神机）配置
+#### 12、DivineEngine（神机）配置
 ❶出国版:https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Outbound.conf
 
 ❷回国版:https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Inbound.conf
 
-### 12、毒奶配置:https://raw.githubusercontent.com/limbopro/Profiles4limbo/main/full.conf
+#### 13、毒奶配置:https://raw.githubusercontent.com/limbopro/Profiles4limbo/main/full.conf
 
-### 13、张军配置:https://raw.githubusercontent.com/28413761/QX/main/lanren.con
+#### 14、张军配置:https://raw.githubusercontent.com/28413761/QX/main/lanren.con
 
 
 
