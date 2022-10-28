@@ -35,12 +35,6 @@ Quantumult-X
 
 #### 13、毒奶配置:https://raw.githubusercontent.com/limbopro/Profiles4limbo/main/full.conf
 
-#### 14、张军配置:https://raw.githubusercontent.com/28413761/QX/main/lanren.con
-
-
-
-
-
 停止更新的公告
 重要：后续不会更新。
 
