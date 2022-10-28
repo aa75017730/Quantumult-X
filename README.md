@@ -6,8 +6,7 @@ Quantumult-X
 
 使用懒人配置前请先做好自己的配置备份，导入配置后可能会覆盖之前的所有配置。
 
-### 1、space配置
-https://raw.githubusercontent.com/WSL33099/QuantumultX/main/Conf/Space.conf
+### 1、space配置(https://raw.githubusercontent.com/WSL33099/QuantumultX/main/Conf/Space.conf)
 
 ### 2、大飞配置
 https://raw.githubusercontent.com/w37fhy/QuantumultX/master/w37fhy_diy.conf
